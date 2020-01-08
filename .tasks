@@ -1,0 +1,25 @@
+## Format: level;question;sha256;Answer example;LevelChecker (true/false)
+
+1;In which folder are you located when you open the terminal?;1c4d3877bf4fe64f9d55cdbbf10d9b02c329b2a5a162ae3014b83da8c3024a71;/folder/folder;false
+
+2;Which command go you run to list all the files in the folder you are currently in?;c7b68ac37f364473e922936708e7f43c293dd07b295171566c07ff5fe024fab9;command;false
+
+3;Which command go you run create a folder?;95c5007a9af81a5e61624caacc506bb513a476dd6c31d653468154137078246c;command;false
+
+4;Which command go you run to change directory?;21e721c35a5823fdb452fa2f9f0a612c74fb952e06927489c6b27a43b817bed4;command;false
+
+5;There is located a file inside /home/pi/teknostart_ctf/komtek, whats the name of this file?;3240af5f279f28ba703346977438465621d43c5cfe10b053bfb48311b4de0058;filname.txt;false
+
+6;There is a file inside /home/pi/teknostart_ctf/openme. The answer is inside the file.;5cefe19035c17c0ba4184786fa1c218952ac6a5b7f988f5479568353f86e002a;the_flag_is_on_this_format!;false
+
+7;Create a folder in /home/pi/teknostart_ctf/komtek called 'myfolder' without quotation marks. Then, create a folder inside 'myfolder' that is called 'inception', again without quotation marks;71e251398954eda79943b6140f0dd875141e905d9d2b24383f65b2907ed350c5;the_flag_is_in_this_format!;true
+
+8;Create another folder inside /home/pi/teknostart_ctf/komtek/myfolder, called 'flag'. Then create a file in that folder called helloworld.txt;84077a0acff7bc0c1b7623637052c59afe101865dd1c7dcda0a06189f015f10d;the_flag_is_on_this_format;true
+
+9;There is a folder in /home/pi/teknostart_ctf called 'deleteme'. Delete it.;1d14295b04eb813bba3849bbaeb5f6fbbfe40f829416f68db7df9f842ef79f83;the_flag_is_on_this_format;true
+
+10;We don't need the file 'helloworld.txt' that you created before. Delete the file. In case you don't remember where you put it, it is in home/pi/teknostart_ctf/komtek/myfolder/flag;621df867faa4d72790c742a76abe01ff7ac4bbed2e2c9c01d91c485b20248654;the_flag_is_on_this_format;true
+
+11;Find the name of the file that has been hidden somwehere inside /home/pi/teknostart_ctf/hidden;87ab798023db0a6d686decd1e962d6079582c1ae1c778e67f1548048f19a25a4;filename.txt;false
+
+12;EXTRA TASK: There is a file in /home/pi/teknostart_ctf/mystic, print out only the lines containing the word "GET";417162354a13685f7d3b8214332969b1d69521ba6916866baf8580025b86e5dc;LOOKSLIKETHIS!;false
